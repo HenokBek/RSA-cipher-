@@ -26,5 +26,6 @@ def Encryption(text):
 def Decryption (text, key):
 #The function receives a string as input, converts each character in the string to ASCII value and decrypts
 #using RSA decryption formula ( X = Y^d(mod n) ) and returns the concatenated plain text.
-GUI Functions #Dialog Box, Text Box, Buttons, Text Field
 def Input_Validation():
+GUI Functions #Dialog Box, Text Box, Buttons, Text Field
+
