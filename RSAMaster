@@ -1,1 +1,30 @@
 #RSA python project 
+
+from tkinter import Tk, Button
+
+def Rand_Numb_Gener(randNum):
+#The function returns a random number
+def Primality_Testing(randNum):
+#The function accepts an integer (a) as an argument and tests for primality, then outputs True if the number prime else False if composite
+def Modulus_Cal(num1, num2):
+#The function receives two prime numbers (p, q) as arguments and returns a modulus n (n = p*q)
+def Public_Key_Gener():
+#The Function calls the random generator, primality testing and GCD testing functions in order to generate a
+#prime public key (e) of which the gcd of e and modulus-1 would be 1 (GCD of e, (n-1) = 1). It returns e.
+def GCD_Test (num1,num2):
+#The function accepts two numbers (n, e) as arguments and tests if the GCD of both numbers equals one, and
+#thus returns True or False
+def Priv_Key_Cal(n,e):
+#The function receives the modulus and public key as arguments (n, e) and calculates the private key (d) using
+#the extended Euclidean algorithm (inverse of e). It returns d.
+def Squ_and_Mul_Exp(n, base, exp):
+#The function receives a base, an exponent and a modulus as arguments (n, base, exp), and thus calculates
+#the modular exponentiation. It returns the result of the modular exponentiation (result_SQM).
+def Encryption(text):
+#The function receives a string as input, converts each character in the string to ASCII value and encrypts
+#using RSA encryption formula ( Y = X^e(mod n) ) and returns the concatenated encrypted text.
+def Decryption (text, key):
+#The function receives a string as input, converts each character in the string to ASCII value and decrypts
+#using RSA decryption formula ( X = Y^d(mod n) ) and returns the concatenated plain text.
+GUI Functions #Dialog Box, Text Box, Buttons, Text Field
+def Input_Validation():
